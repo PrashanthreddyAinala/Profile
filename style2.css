@@ -1,0 +1,94 @@
+body{
+    display:grid;
+    grid-template-columns: 30% auto;
+    grid-template-rows: 10% 70% auto 13%;
+    grid-template-areas: "header header"
+                         "aside main"
+                         "nav nav"
+                         "footer footer";
+}
+
+.header{
+    background-color: lightblue;
+    border-bottom: 2px solid white;
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-left: 60px;
+    color: darkblue ;
+}
+
+#home{
+    text-decoration: none;
+}
+
+#habout{
+    padding-left: 150px;
+    text-decoration: none;
+}
+
+#contact{
+    padding-left: 150px;
+    text-decoration: none;
+}
+
+#hobbies {
+    text-decoration: none;
+}
+
+.aside{
+    background-color: lightgreen;
+    font-size: 20px;
+    border-right: 2px solid white;
+}
+.aside img{
+    margin-left: 30px;
+}
+#det{
+    margin-left: 60px;
+    font-style: italic;
+}
+.aside p{
+    margin-left: 55px;
+}
+
+.main h1{
+    margin-left: 50px;
+    font-style: italic;
+}
+
+.main{
+    background-color: lightgray;
+    text-align: left;
+}
+.main p{
+    margin-left:30px;
+    margin-right: 40px;
+    font-size: 25px;
+}
+
+.nav{
+    background-color: lightcyan;
+    border-top: 2px solid white;
+
+}
+
+.nav h1{
+    margin-left: 80px;
+    font-style: italic;
+}
+
+.nav p{
+    font-size: 30px;
+    margin-left: 80px;
+}
+.footer{
+    background-color: lightpink;
+    border-top: 2px solid white;
+}
+
+.footer h1{
+    margin-left: 80px;
+    font-style:italic;
+}
+
